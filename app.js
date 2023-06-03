@@ -45,7 +45,7 @@ var app = express();
 //conn.open(globals.db);
 const mongoose = require('mongoose')
 var globals = require('./config/globals');
-const url = `mongodb://kduffy:Hjaalmarch11@cluster0-shard-00-00.tzgkf.mongodb.net:27017,cluster0-shard-00-01.tzgkf.mongodb.net:27017,cluster0-shard-00-02.tzgkf.mongodb.net:27017/myFirstDatabase?ssl=true&replicaSet=atlas-3ln9ki-shard-0&authSource=admin&retryWrites=true&w=majority`;
+const url = `mongodb://kduffy:xgZBWqOSJxJYpbnD@cluster0-shard-00-00.tzgkf.mongodb.net:27017,cluster0-shard-00-01.tzgkf.mongodb.net:27017,cluster0-shard-00-02.tzgkf.mongodb.net:27017/myFirstDatabase?ssl=true&replicaSet=atlas-3ln9ki-shard-0&authSource=admin&retryWrites=true&w=majority`;
 
 
 const connectionParams={
